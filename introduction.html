@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="introduction.css">
+    
+
+    
+</head>
+<body>
+    <div class="main">
+        <!-- <img src="bg.png" class="main"> -->
+
+        <nav>
+            <div class="logo">
+                <img src="head.png">
+                <img src="logohead.png" id="head">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="C:\Users\my pc\OneDrive\Desktop\dtpi\introduction.html">Home</a></li>
+                    <li><a href="C:\Users\my pc\OneDrive\Desktop\dtpi\inventions.html" target="_blank">Inventions </a></li>
+                    <li><a href="https://www.livescience.com/news">Advancements</a></li>
+                    <li><a href="https://www.cas.org/resources/cas-insights/emerging-science/breakthrough22">Discoveries</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="intelligent.png" class="intelligent">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="inv.png">
+                <div>
+                    <h1><a href="C:\Users\my pc\OneDrive\Desktop\dtpi\inventions.html" target="_blank">INVENTIONS</a></h1>
+                    <p>Inventions propel progress, shaping the future with transformative ideas and breakthroughs.</p>
+                </div>
+                </div>
+                <div class="feature two">
+                    <img src="Advancements.png">
+                    <div>
+                        <h1><a href="https://www.livescience.com/news">ADVANCEMENTS</a></h1>
+                        <p>Advancements drive societal evolution, pushing boundaries and ushering in a new era of possibilities</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="discoveries.png">
+                    <div>
+                        <h1><a href="https://www.cas.org/resources/cas-insights/emerging-science/breakthrough22">DISCOVERIES</a> </h1>
+                        <p>Discoveries illuminate the unknown, unraveling mysteries and expanding the frontiers of human knowledge.</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="learn new.png">
+                    <div>
+                        <h1><a href="https://www.livescience.com/news">LEARN NEW</a> </h1>
+                        <p>Learning something new enriches the mind, fostering growth and opening doors to unexplored realms of understanding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="controls" >
+    <img src="Screenshot 2023-12-06 230358.png" id="upbtn">
+    <h3>Features</h3>
+    <img src="Screenshot 2023-12-06 230358.png" id="downbtn">
+</div>
+    </div>
+
+    <script>
+        var circle=document.getElementById("circle");
+        var upbtn=document.getElementById("upbtn");
+        var downbtn=document.getElementById("downbtn");
+        var rotateValue=circle.style.transform;
+        var rotateSum;
+
+        upbtn.onclick=function(){
+            rotateSum=rotateValue+"rotate(-90deg)";
+            circle.style.transform=rotateSum;
+            rotateValue=rotateSum;
+        }
+        downbtn.onclick=function(){
+            rotateSum=rotateValue+"rotate(90deg)";
+            circle.style.transform=rotateSum;
+            rotateValue=rotateSum;
+        }
+    </script>
+    <div class="whitebox1">
+         <img src="Screenshot 2023-12-07 175918.png">
+    </div>
+    <div class="whitebox2" >
+        <img src="Screenshot 2023-12-07 175918.png">
+   </div>
+   <div class="whitebox3">
+    <img src="Screenshot 2023-12-07 175918.png">
+</div>
+<div class="rounded-box"></div>
+</body>
+</html>
